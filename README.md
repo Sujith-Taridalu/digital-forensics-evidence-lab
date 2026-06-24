@@ -21,6 +21,12 @@ This repository documents a digital forensics investigation workflow built aroun
 - Documented suspected use of steganography and encrypted volumes
 - Produced a case-style narrative with findings, limitations, and next investigative steps
 
+## Visual Overview
+
+![Investigation Workflow](docs/visuals/investigation-workflow.svg)
+
+![Sanitized Case Timeline](docs/visuals/case-timeline-visual.svg)
+
 ## Investigation Workflow
 
 1. Validate the seized image and preserve read-only handling.
