@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+  <rect width="1200" height="760" fill="#0b1220"/>
+  <text x="70" y="80" fill="#f8fafc" font-family="Arial, sans-serif" font-size="34" font-weight="700">Sanitized Case Timeline</text>
+  <text x="70" y="118" fill="#94a3b8" font-family="Arial, sans-serif" font-size="18">Visual summary of the activity window reconstructed during the forensic review</text>
+
+  <line x1="110" y1="380" x2="1090" y2="380" stroke="#64748b" stroke-width="6"/>
+  <circle cx="220" cy="380" r="18" fill="#38bdf8"/>
+  <circle cx="430" cy="380" r="18" fill="#38bdf8"/>
+  <circle cx="650" cy="380" r="18" fill="#38bdf8"/>
+  <circle cx="860" cy="380" r="18" fill="#38bdf8"/>
+  <circle cx="1010" cy="380" r="18" fill="#22c55e"/>
+
+  <text x="185" y="335" fill="#e2e8f0" font-family="Arial, sans-serif" font-size="21" font-weight="700">App Usage</text>
+  <text x="140" y="295" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="17">Discord, browser,</text>
+  <text x="140" y="318" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="17">encryption/stego traces</text>
+
+  <text x="395" y="335" fill="#e2e8f0" font-family="Arial, sans-serif" font-size="21" font-weight="700">Comms Evidence</text>
+  <text x="360" y="295" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="17">Local cache and</text>
+  <text x="360" y="318" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="17">message-related artifacts</text>
+
+  <text x="620" y="335" fill="#e2e8f0" font-family="Arial, sans-serif" font-size="21" font-weight="700">Files &amp; Archives</text>
+  <text x="590" y="295" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="17">Downloaded items and</text>
+  <text x="590" y="318" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="17">folders of interest align</text>
+
+  <text x="818" y="335" fill="#e2e8f0" font-family="Arial, sans-serif" font-size="21" font-weight="700">Browser Activity</text>
+  <text x="800" y="295" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="17">Searches and history</text>
+  <text x="800" y="318" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="17">support concealment themes</text>
+
+  <text x="958" y="335" fill="#e2e8f0" font-family="Arial, sans-serif" font-size="21" font-weight="700">Narrative</text>
+  <text x="940" y="295" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="17">Cross-correlation</text>
+  <text x="940" y="318" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="17">supports case story</text>
+
+  <rect x="120" y="460" rx="18" ry="18" width="960" height="180" fill="#111827" stroke="#334155" stroke-width="3"/>
+  <text x="155" y="512" fill="#f8fafc" font-family="Arial, sans-serif" font-size="24" font-weight="700">Interpretation</text>
+  <text x="155" y="558" fill="#d1d5db" font-family="Arial, sans-serif" font-size="20">The important portfolio signal is not any single artifact. It is the ability to align multiple evidence sources into one defensible sequence.</text>
+  <text x="155" y="596" fill="#d1d5db" font-family="Arial, sans-serif" font-size="20">That includes integrity checks, artifact review, communication analysis, and timeline reconstruction under evidentiary constraints.</text>
+</svg>
