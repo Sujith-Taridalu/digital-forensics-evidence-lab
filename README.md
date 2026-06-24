@@ -30,13 +30,11 @@ It is framed to show evidence handling and investigative workflow, not just a ge
 
 These screenshots were extracted from the original project documentation and show real evidence-handling and artifact-review steps:
 
-![MD5 integrity validation](docs/screenshots/md5-integrity-validation.png)
+![MD5 integrity validation](docs/screenshots/md5-integrity-validation.svg)
 
-![Document artifact review](docs/screenshots/document-artifact-review.png)
+![Prefetch execution traces](docs/screenshots/prefetch-execution-traces.svg)
 
-![Prefetch execution traces](docs/screenshots/prefetch-execution-traces.png)
-
-More annotated evidence is in [docs/evidence-gallery.md](docs/evidence-gallery.md).
+More annotated evidence, including document and communication artifact notes, is in [docs/evidence-gallery.md](docs/evidence-gallery.md).
 
 ## Investigation Workflow
 
@@ -46,6 +44,14 @@ More annotated evidence is in [docs/evidence-gallery.md](docs/evidence-gallery.m
 4. Review documents, downloads, and browser history for corroborating evidence.
 5. Reconstruct a time-bounded activity narrative from multiple sources.
 6. Write findings, limits, and next investigative steps in a structured report.
+
+## Supporting Tooling
+
+This repository now includes small analyst utilities in [`tools/`](tools) that mirror parts of the investigation workflow:
+
+- export Firefox history from `places.sqlite`
+- summarize executable names from Prefetch-related notes or exports
+- turn evidence review into structured, reusable analysis steps
 
 ## Key Findings
 
