@@ -1,0 +1,13 @@
+evidence_area,artifact_source,public_safe_finding,portfolio_skill
+Integrity validation,Forensic image hash,MD5 validation performed before artifact review,Evidence handling
+Read-only handling,Mounted disk image,Review performed without modifying original evidence,Forensic process
+Application execution,Prefetch,Discord Firefox TrueCrypt and image steganography tool execution indicated,Windows artifact analysis
+Communication artifacts,Discord cache,JSON-format chat/cache artifacts reviewed and converted for analysis,Communication artifact review
+User folders,Documents and Downloads,Documents archives and images correlated with other artifacts,Filesystem analysis
+Browser history,Firefox places.sqlite,History supported searches/visits related to tools and context,SQLite browser forensics
+Data hiding,Steganography and encryption indicators,Presence of tools and references justified deeper follow-up,Concealment awareness
+Limitations,Encrypted/steganographic content,Some artifacts could not be fully examined without passwords or originals,Forensic reporting
+Autopsy,Extension mismatch,Files with mismatched extensions reviewed as investigative leads,Autopsy analysis
+Autopsy,Deleted files,Deleted entries reviewed and documented,File system forensics
+PCAP,ARP DHCP Kerberos HTTP,Endpoint identity and suspicious download workflow summarized,Network forensics
+OSINT,Passive collection awareness,OSINT concepts reframed defensively,Security awareness
