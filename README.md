@@ -1,24 +1,60 @@
 # Digital Forensics Evidence Lab
 
-## Overview
+A sanitized digital forensics, OSINT, steganography, metadata, Autopsy, and PCAP-analysis portfolio project built from mock case-report work and hands-on forensic labs.
 
-This repository represents a resume-aligned digital forensics and evidence analysis project built around Windows disk-image investigation, artifact correlation, and structured case reporting. It shows how I validated evidence integrity, worked through application and browser artifacts, investigated data-hiding indicators, and translated multiple evidence sources into one defensible investigative narrative.
+> **Disclaimer:** This repository is for defensive education and portfolio demonstration only. It does not contain raw disk images, raw PCAPs, recovered private data, real victim information, offensive social-engineering instructions, malware binaries, passwords, or unredacted assignment pages. Case names and sensitive details are generalized for public presentation.
 
-## What I Did
+## What This Project Demonstrates
 
-- validated MD5 integrity and mounted evidence in read-only mode
-- examined `Prefetch`, `Discord` cache artifacts, Firefox `places.sqlite` history, downloads, user folders, and filesystem evidence
-- correlated executed applications, communication identities, suspicious files, and concealment-related tooling
-- used forensic workflows and tools including `Autopsy`, `PhotoRec`, `ExifTool`, `Hashcat`, `Wireshark`, `Steghide`, `DB Browser for SQLite`, and `Maigret`
-- produced a structured case report with evidence validation, artifact correlation, findings, limitations, and follow-up recommendations
+- Evidence integrity validation using hash verification and read-only handling
+- Windows disk-image investigation using application execution traces, user folders, browser history, and local communication artifacts
+- Artifact correlation across Prefetch, Discord cache records, Firefox `places.sqlite`, downloads, documents, and suspicious files
+- Steganography and metadata awareness using Steghide-style concepts, histogram comparison, and ExifTool-style GPS/EXIF review
+- Autopsy-based file-system review, extension mismatch analysis, deleted-file review, and USB artifact interpretation
+- Network forensics using Wireshark/PCAP analysis for ARP, DHCP, Kerberos, HTTP download indicators, and hash-based malware triage
+- OSINT and social-engineering risk analysis reframed defensively for awareness, investigation support, and security training
+- Clear forensic reporting with scope, evidence handling, findings, limitations, and follow-up recommendations
 
-## Resume Alignment
+## Repository Structure
 
-This repo supports the resume project:
+```text
+.
+├── README.md
+├── docs/
+│   ├── executive-summary.md
+│   ├── forensic-case-study.md
+│   ├── evidence-handling.md
+│   ├── artifact-correlation.md
+│   ├── steganography-metadata-lab.md
+│   ├── autopsy-usb-analysis.md
+│   ├── pcap-network-forensics.md
+│   ├── osint-social-engineering-defense.md
+│   ├── evidence-gallery.md
+│   ├── screenshot-guide.md
+│   ├── redaction-and-publication-checklist.md
+│   ├── visuals/
+│   │   ├── investigation-workflow.svg
+│   │   ├── case-timeline-visual.svg
+│   │   ├── evidence-correlation-map.svg
+│   │   └── pcap-analysis-flow.svg
+│   └── screenshots/
+│       ├── README.md
+│       ├── md5-integrity-validation.svg
+│       └── prefetch-execution-traces.svg
+├── data/
+│   ├── evidence-matrix.csv
+│   ├── forensic-toolchain.csv
+│   └── pcap-observations.csv
+└── tools/
+    ├── firefox_history_export.py
+    └── prefetch_name_summarizer.py
+```
 
-`Digital Forensics Investigation & Evidence Analysis Lab`
+## Quick Portfolio Narrative
 
-It is framed to show evidence handling and investigative workflow, not just a generic forensics topic.
+This project models a defensible forensic workflow: validate the evidence source, preserve a read-only examination path, review host and user artifacts, correlate communication and file evidence, examine data-hiding indicators, analyze PCAP evidence, and write a professional report that separates confirmed findings from limitations.
+
+It is intentionally curated. Raw assignment pages, exact private details, full suspect/victim narratives, attack-oriented social-engineering content, raw PCAPs, and recovered evidence files are excluded.
 
 ## Visual Overview
 
@@ -26,40 +62,39 @@ It is framed to show evidence handling and investigative workflow, not just a ge
 
 ![Sanitized Case Timeline](docs/visuals/case-timeline-visual.svg)
 
-## Real Tool Evidence
+![Evidence Correlation Map](docs/visuals/evidence-correlation-map.svg)
 
-These screenshots were extracted from the original project documentation and show real evidence-handling and artifact-review steps:
+![PCAP Analysis Flow](docs/visuals/pcap-analysis-flow.svg)
+
+## Public-Safe Evidence Gallery
+
+These screenshots were extracted or recreated from the original project documentation and show real evidence-handling and artifact-review steps without publishing raw evidence files:
 
 ![MD5 integrity validation](docs/screenshots/md5-integrity-validation.svg)
 
 ![Prefetch execution traces](docs/screenshots/prefetch-execution-traces.svg)
 
-More annotated evidence, including document and communication artifact notes, is in [docs/evidence-gallery.md](docs/evidence-gallery.md).
+More annotated evidence is in [`docs/evidence-gallery.md`](docs/evidence-gallery.md).
 
-## Investigation Workflow
+## Portfolio Artifacts
 
-1. Validate evidence integrity and preserve a read-only examination path.
-2. Review application execution traces to identify likely user behavior and tooling.
-3. Examine local communication artifacts and exchanged file clues.
-4. Review documents, downloads, and browser history for corroborating evidence.
-5. Reconstruct a time-bounded activity narrative from multiple sources.
-6. Write findings, limits, and next investigative steps in a structured report.
-
-## Supporting Tooling
-
-This repository now includes small analyst utilities in [`tools/`](tools) that mirror parts of the investigation workflow:
-
-- export Firefox history from `places.sqlite`
-- summarize executable names from Prefetch-related notes or exports
-- turn evidence review into structured, reusable analysis steps
-
-## Key Findings
-
-- Evidence linked communication traces, suspicious files, and tool usage into one coordinated narrative.
-- Prefetch and browser artifacts reinforced the interpretation of concealment-related behavior.
-- The disk image contained signals of steganography and encrypted-volume usage that justified deeper follow-on work.
-- Artifact correlation was the core strength of the case, not any single screenshot or file alone.
+| Artifact | Purpose |
+|---|---|
+| [`docs/executive-summary.md`](docs/executive-summary.md) | High-level portfolio summary for recruiters and interviewers. |
+| [`docs/forensic-case-study.md`](docs/forensic-case-study.md) | Sanitized case-study narrative from evidence validation to final findings. |
+| [`docs/evidence-handling.md`](docs/evidence-handling.md) | Chain-of-custody style evidence handling, hash validation, scope, and limitations. |
+| [`docs/artifact-correlation.md`](docs/artifact-correlation.md) | Explains how Prefetch, Discord cache, documents, downloads, and browser history were correlated. |
+| [`docs/steganography-metadata-lab.md`](docs/steganography-metadata-lab.md) | Steghide, histogram comparison, EXIF/GPS metadata, and Hashcat concepts summarized safely. |
+| [`docs/autopsy-usb-analysis.md`](docs/autopsy-usb-analysis.md) | Autopsy/USB filesystem analysis, extension mismatch review, TOR/anonymity artifact interpretation, and deleted-file review. |
+| [`docs/pcap-network-forensics.md`](docs/pcap-network-forensics.md) | PCAP workflow covering ARP, DHCP, Kerberos, HTTP download evidence, SHA256 triage, and VirusTotal interpretation. |
+| [`docs/osint-social-engineering-defense.md`](docs/osint-social-engineering-defense.md) | OSINT and social-engineering content reframed defensively for awareness and investigation. |
+| [`docs/screenshot-guide.md`](docs/screenshot-guide.md) | Which screenshots are safe to use and what should be redacted. |
+| [`docs/redaction-and-publication-checklist.md`](docs/redaction-and-publication-checklist.md) | Public-release checklist for forensic repositories. |
 
 ## Skills Demonstrated
 
-`Digital Forensics` `Evidence Handling` `Artifact Correlation` `Hash Validation` `SQLite/Browser History Review` `Filesystem Analysis` `Steganography Awareness` `Forensic Reporting`
+`Digital Forensics` `Evidence Handling` `Artifact Correlation` `Hash Validation` `Autopsy` `Wireshark` `PCAP Analysis` `SQLite/Browser History Review` `Prefetch Analysis` `Discord Cache Review` `Steganography Awareness` `ExifTool` `OSINT` `Forensic Reporting`
+
+## How I Would Explain This in an Interview
+
+> I built a digital-forensics evidence lab around a mock disk-image investigation and supporting forensic labs. I validated evidence integrity, reviewed execution traces, user files, browser artifacts, local communication records, data-hiding indicators, USB artifacts, and PCAP evidence. I then converted the raw coursework into a public-safe portfolio that shows methodology, artifact correlation, limitations, and defensible reporting without exposing raw evidence or sensitive personal details.
