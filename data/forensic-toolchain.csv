@@ -1,0 +1,14 @@
+tool_or_method,category,portfolio_use
+md5sum,Integrity validation,Verify forensic image hash before analysis
+Disk Image Mounter,Evidence handling,Mount image in read-only style workflow
+Windows Prefetch,Host artifacts,Identify executed applications
+Discord cache,Communication artifacts,Review local cached chat/log evidence
+DB Browser for SQLite,Browser forensics,Review Firefox places.sqlite history
+Autopsy,Filesystem forensics,Identify extension mismatches deleted files and USB artifacts
+Steghide,Steganography concepts,Understand hidden-data embedding and extraction requirements
+ExifTool,Metadata forensics,Review GPS camera and file metadata
+Hashcat,Password/hash concepts,Understand authorized hash recovery and password-storage concepts
+Wireshark,Network forensics,Analyze ARP DHCP Kerberos HTTP and suspicious downloads
+VirusTotal-style enrichment,Threat intelligence,Use hash-only enrichment for suspicious downloaded executable
+OSINT Framework,OSINT,Structure legal and ethical open-source collection
+Maigret,OSINT,Support username/profile exposure review in defensive context
