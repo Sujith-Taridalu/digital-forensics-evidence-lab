@@ -1,0 +1,7 @@
+task,protocol_or_source,sanitized_observation,public_safety_note
+Endpoint MAC identification,ARP,Windows client MAC address identified from ARP response,No raw PCAP published
+Hostname identification,DHCP,Windows hostname identified from DHCP traffic,Hostname generalized in documentation
+Account context,Kerberos,Machine and user account context identified from Kerberos traffic,Private account names should be redacted publicly
+Executable download,HTTP,Suspicious Windows executable download observed,Full URL omitted from repo docs
+File hash,SHA256,Downloaded executable hashed for enrichment,Hash-only IOC can be safer than binary upload
+Malware enrichment,VirusTotal-style lookup,Detected as Trojan/password-stealer style malware by multiple engines,No malware binary committed
