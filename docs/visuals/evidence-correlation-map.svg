@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-label="Evidence correlation map">
+  <rect width="1200" height="720" fill="#0f172a"/>
+  <text x="70" y="80" fill="#f8fafc" font-family="Arial, sans-serif" font-size="34" font-weight="700">Evidence Correlation Map</text>
+  <text x="70" y="118" fill="#94a3b8" font-family="Arial, sans-serif" font-size="18">Public-safe view of how separate forensic artifacts support a defensible narrative</text>
+
+  <rect x="70" y="170" width="240" height="115" rx="18" fill="#1e293b" stroke="#38bdf8" stroke-width="3"/>
+  <text x="105" y="215" fill="#e2e8f0" font-family="Arial" font-size="23" font-weight="700">Prefetch</text>
+  <text x="105" y="250" fill="#cbd5e1" font-family="Arial" font-size="17">Executed tools and apps</text>
+
+  <rect x="350" y="170" width="240" height="115" rx="18" fill="#1e293b" stroke="#22c55e" stroke-width="3"/>
+  <text x="385" y="215" fill="#e2e8f0" font-family="Arial" font-size="23" font-weight="700">Chat Cache</text>
+  <text x="385" y="250" fill="#cbd5e1" font-family="Arial" font-size="17">Local communication traces</text>
+
+  <rect x="630" y="170" width="240" height="115" rx="18" fill="#1e293b" stroke="#f59e0b" stroke-width="3"/>
+  <text x="665" y="215" fill="#e2e8f0" font-family="Arial" font-size="23" font-weight="700">Files</text>
+  <text x="665" y="250" fill="#cbd5e1" font-family="Arial" font-size="17">Documents and downloads</text>
+
+  <rect x="910" y="170" width="220" height="115" rx="18" fill="#1e293b" stroke="#a78bfa" stroke-width="3"/>
+  <text x="945" y="215" fill="#e2e8f0" font-family="Arial" font-size="23" font-weight="700">Browser DB</text>
+  <text x="945" y="250" fill="#cbd5e1" font-family="Arial" font-size="17">History and intent clues</text>
+
+  <rect x="230" y="420" width="300" height="125" rx="18" fill="#111827" stroke="#f43f5e" stroke-width="3"/>
+  <text x="270" y="468" fill="#f8fafc" font-family="Arial" font-size="24" font-weight="700">Data-Hiding Indicators</text>
+  <text x="270" y="505" fill="#cbd5e1" font-family="Arial" font-size="17">Steganography and encryption context</text>
+
+  <rect x="670" y="420" width="300" height="125" rx="18" fill="#111827" stroke="#14b8a6" stroke-width="3"/>
+  <text x="710" y="468" fill="#f8fafc" font-family="Arial" font-size="24" font-weight="700">Forensic Narrative</text>
+  <text x="710" y="505" fill="#cbd5e1" font-family="Arial" font-size="17">Timeline, findings, limitations</text>
+
+  <line x1="190" y1="285" x2="360" y2="420" stroke="#64748b" stroke-width="4" marker-end="url(#arrow)"/>
+  <line x1="470" y1="285" x2="470" y2="420" stroke="#64748b" stroke-width="4" marker-end="url(#arrow)"/>
+  <line x1="750" y1="285" x2="760" y2="420" stroke="#64748b" stroke-width="4" marker-end="url(#arrow)"/>
+  <line x1="1020" y1="285" x2="870" y2="420" stroke="#64748b" stroke-width="4" marker-end="url(#arrow)"/>
+  <line x1="530" y1="482" x2="670" y2="482" stroke="#e5e7eb" stroke-width="4" marker-end="url(#arrowLight)"/>
+
+  <rect x="110" y="610" width="980" height="54" rx="14" fill="#020617" stroke="#334155"/>
+  <text x="600" y="644" text-anchor="middle" fill="#e5e7eb" font-family="Arial" font-size="18">Key lesson: no single artifact proves the story; correlation and limitations make the report defensible.</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,8 L10,4 z" fill="#64748b"/></marker>
+    <marker id="arrowLight" markerWidth="12" markerHeight="12" refX="10" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,8 L10,4 z" fill="#e5e7eb"/></marker>
+  </defs>
+</svg>
